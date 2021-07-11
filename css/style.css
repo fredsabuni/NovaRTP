@@ -1,0 +1,397 @@
+@charset "utf-8";
+.primary-color {
+    color: rgb(178, 19, 34);
+}
+
+html:not([data-scroll="0"]) .nav-colors {
+    color: aliceblue;
+}
+
+.secondary-color {
+    /* color: rgb(253, 142, 9); */
+    color: rgb(83, 83, 83);
+}
+
+.floorplan {
+    background-image: url("../images/floor_img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.floorplan2 {
+    background-image: url("../images/floor_img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neighborhood {
+    background-attachment: fixed;
+    background-image: url("../images/neighborhood-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neighborhood-1{
+    background-attachment: fixed;
+    background-image: url("../images/neighborhood-2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neighborhood-2{
+    background-attachment: fixed;
+    background-image: url("../images/neighborhood-3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neighborhood-white{
+    background-attachment: fixed;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neighborhood-3{   
+    /* background-attachment: fixed; */
+    background-image: url("../images/neighborhood-4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neighborhood-4{
+    background-attachment: fixed;
+    background-image: url("../images/neighborhood-04.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amenities-1{
+    background-attachment: fixed;
+    background-image: url("../images/amenities-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amenities-7{
+    background-attachment: fixed;
+    background-image: url("../images/amenities-7.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-1{
+    background-attachment: fixed;
+    background-image: url("../images/contact-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** CONTACT 2 AREA START **/
+.contact-form form .input-text {
+    width: 100%;
+    padding: 10px 17px;
+    font-size: 16px;
+    outline: none;
+    color: #6c6c6c;
+    border-radius: 3px;
+    min-height: 50px;
+    font-weight: 400;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form form textarea {
+    min-height: 200px!important;
+}
+
+.opening-hours {
+    margin-bottom: 50px;
+    background: #fff;
+    padding: 30px;
+}
+
+.opening-hours .list-style-none {
+    margin: 0;
+    padding: 0;
+}
+
+.opening-hours .list-style-none li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.opening-hours strong {
+    width: 100px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.contact-form{
+    margin-bottom: 50px;
+}
+
+
+.contact-info{
+    text-align: center;
+}
+
+.contact-info i {
+    font-size: 24px;
+}
+
+.contact-info .p22{
+    margin: 15px 0 0;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.contact-info strong {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contact-info .contact-info-inner{
+    margin-bottom: 40px;
+}
+
+/** CONTACT 3 AREA START **/
+
+ 
+
+.circle:before {
+    content: ' \25CF';
+    font-size: 10px;
+}
+
+.sitemap {
+    background-image: url("../images/38-384840_transparent-tree-top-view-png-floor-plan-png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-map-white-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.absolute-position {
+    position: absolute;
+}
+
+.white-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/floor_plan_img.webp");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/amenities_img.webp");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/neighbour_img.webp");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h5 {
+    font-weight: bold;
+    /* font-size: 40px; */
+}
+
+.row-margin {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nav-height {
+    min-height: 20vh;
+    background-color: #ad1f24;
+}
+
+.tag-title {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+.flow-btn {
+    position: absolute;
+    top: 88%;
+    left: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width:990px) {
+    .flow-btn {
+        top: 85%;
+    }
+}
+
+.white-text {
+    color: white;
+}
+
+.grey-text {
+    color: rgb(37, 36, 36);
+}
+
+.black-text {
+    color: black;
+}
+
+
+/* .font-16 {
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+h3 {
+    font-weight: bold;
+}
+
+.main-div {
+    position: relative;
+}
+
+.primary-color {
+    color: #ad1f24;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.footer {
+    min-height: 200px;
+    /* background-color: #1A3055;  */
+    background-color: #44494D;
+    padding: 20px;
+}
+
+.image-size {
+    height: 420px;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.fixed-top {
+    position: fixed;
+}
+
+.btn-secondary {
+    border-radius: 0px;
+    width: 70%;
+    min-height: 150%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.btn-width {
+    border-radius: 0px;
+    /* -width: 200px; */
+}
+
+.btn-danger {
+    border-radius: 0px;
+    border-width: 0px;
+    background-color: #ad1f24;
+}
+
+.btn-danger-mobile {
+    background: #ad1f24;
+}
+
+.big-heading {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.navbar.navbar-expand-lg .navbar-light .bg-light {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hide-on-desktop {
+    display: none;
+}
+
+.link:hover {
+    color: rgba(178, 19, 34, 0.8);
+}
+
+.link {
+    text-decoration: none;
+}
+
+@media screen and (max-width:959px) {
+    .hide-on-desktop {
+        display: block;
+    }
+    p {
+        margin: 10px;
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    h3 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .nav-height {
+        min-height: auto;
+        background-color: #ad1f24;
+    }
+    .image-size {
+        height: 300px;
+        width: 100%;
+    }
+    .link {
+        text-decoration: none;
+    }
+}
