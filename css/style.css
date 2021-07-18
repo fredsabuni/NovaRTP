@@ -66,11 +66,37 @@ html:not([data-scroll="0"]) .nav-colors {
     background-size: cover;
 }
 
+.neighborhood-5{
+    background-attachment: fixed;
+    background-image: url("../images/neighborhood-5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.neighborhood-6{
+    background-attachment: fixed;
+    background-image: url("../images/neighborhood-6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
 .amenities-1{
     background-attachment: fixed;
     background-image: url("../images/amenities-1.webp");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.floor_3{
+    /* background-attachment: fixed; */
+    background-image: url("../images/floor_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
 }
 
 .amenities-7{
